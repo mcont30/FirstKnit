@@ -1,0 +1,103 @@
+---
+title: "First Knit"
+author: Mitzy Contreras
+date: "August 19, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+
+###my answer     
+
+  I am in the second row nearest to the back of the classroom. I usually choose to be seated near a wall. I do this for almost all my classes, it gives me a sense of comfort to be able to see my surroudings. On a sacle of 1-10 I would rate my preference of periodic seat assignment at a 2. Not the biggest fan of it especially sincee this is the one class I have ever taken with someone close to me. I only enjoy team work if everyone on the team is pulling their own weight. 
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+
+
+###my answer     
+  
+   
+   My name is Mitzy but I prefer to be called Mitz.
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  
+  In life I want to achieve too many things to list for you at the moment. If you were to ask the person I briefly mentioned in the first paragraph you would have a small idea of the many things i want to do in this lifetime. There isn't a single subject that peeks my interest the most so to say. I have found much enjoyment in the yoga classes offered here. Unfortunately it doesn't seem I will be able to take yoga this semester due to low enrollment. :( I have earned my Associates in Aircraft Fabrication and a Liberal Arts degree in Behavioral Sciences here at Avc. I hope to earn my bachelors degree from Avc as well in Airframe Manufaturing and Technology along with my Liberal Arts degree in Math and Science. 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+   
+  I have been to Central America with my immediate family to visit my extended family which was over a decade ago. I have also been to Mexico many years ago. I would love to do more traveling and possibly visit Europe some day. The military has always interested me but I have never signed up. The branches that interest me are the Marines and the Airforce. The Airforce because Aircraft interest me and Marines because i have a childhood friend who has served for 5 years and tells me great things about it. 
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  
+   
+To be able to continue prusuing my goals and obtain the degrees i want, a letter grade of C would sufice. However, I always strive for better and would proud to earn an A in your class. 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  
+   
+  
+I would rate myself a 5 out of 10 in computer knowledge. I have a mac laptop at home and coudldn't tell you what's great about it. I needed a good laptop when my old one started to fail in the middle of an online course I was taking and the best buy geeks said the mac laptop wouldn't let me down due to the advanced technology it was equiped with. I no longer have internet access at home. 
+I drive myself to the college and my place of employment which would be In N Out burger. There are rare times when work and or family issues interfere with me being able to be at the college. 
+I went to 6 different high schools in California and Georgia from the time my parents split and fell behind 1/2 a year-a year behind in school work due to an unforseen series of events. Luckily I was strong willed enough to do what needed to be done by getting to school however I could and completing all of the neccesary requirements. Not only did I catch up but I graduated a month earlier than my class. 
+
+
+
